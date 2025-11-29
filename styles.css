@@ -20,3 +20,50 @@ body {
     padding: 1rem;
     text-align: center;
 }
+ .subtitle {
+    opacity: 50%;
+}
+.content {
+    display: flex;/* Usar flexbox para el diseño */
+    gap: 3rem;/* separacion de las tarjestas */
+    flex-wrap: wrap; /* Permitir que las tarjetas se envuelvan en varias filas */
+    justify-content: center;
+    padding: 2rem;
+    
+
+}
+.card {
+    background-color: #c7220d;
+    padding: 1.25rem;
+    border-radius: 22px;
+    box-shadow: 0 6px 8px rgba(243, 105, 86, 0.534);
+    overflow: hidden;
+    width: 300px;
+    transition: transform 0.2s;
+}
+.card h2 {
+    margin-bottom: 0.5rem;
+    color: #180e10;
+}
+.card p {
+    margin-bottom: 1rem;
+    color: #ffffff;
+}
+.btn {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    background-color: #777473;
+    border-radius: 8px;
+    color: rgb(236, 229, 229);
+    justify-content: center;
+} 
+.card a {
+    justify-content: center;
+    display: flex;
+    text-align: center;
+}
+.site-footer{
+    text-align: center;
+    padding: 1rem;
+    color: #fcf5f5;
+}
